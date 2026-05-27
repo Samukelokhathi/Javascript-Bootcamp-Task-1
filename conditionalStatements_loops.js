@@ -92,16 +92,24 @@ for (let num = 0; num < numbersArr.length; num++) {
 
 // While loop
 
-
+// 1. Printing Numbers from 1 - 10 
 count = 1
 
 while (count <= 10) {
-    console.log(count)
+    // console.log(count)
     count++
 }
 
+//  Print all even numbers between 1 and 20.
 
+let evenNumber = 1;
 
+while (evenNumber <= 20) {
+    if (evenNumber % 2 == 0) {
+        console.log(evenNumber)
+    }
+    evenNumber++
+}
 
 
 // const guessNumber = 10
