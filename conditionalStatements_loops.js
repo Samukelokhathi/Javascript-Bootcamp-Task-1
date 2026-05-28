@@ -141,6 +141,17 @@ while (divisibleBy5 < limit) {
 
 let numbersTo10 = 1;
 do {
-    console.log(numbersTo10)
+    // console.log(numbersTo10)
     numbersTo10++
 } while (numbersTo10 <= 10)
+
+// 2. Calculate the sum of all numbers from 1 to 100 and print the result. 
+
+let totalNumber = 0;
+let eachNum = 0;
+do {
+    totalNumber += eachNum
+    eachNum++
+} while (eachNum <= 100)
+
+console.log(totalNumber)
