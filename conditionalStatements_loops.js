@@ -124,7 +124,13 @@ while (currentNumber <= 100) {
 }
 // console.log(sumOfNumbers)
 
-// let limit = 1;
-// // 4. Print all multiples of 5 less than 50.
 
-// while (currentNumber < limit)
+// 4. Print all multiples of 5 less than 50.
+let limit = 50;
+let divisibleBy5 = 1
+while (divisibleBy5 < limit) {
+    if (divisibleBy5 % 5 === 0) {
+        console.log(divisibleBy5)
+    }
+    divisibleBy5++
+}
