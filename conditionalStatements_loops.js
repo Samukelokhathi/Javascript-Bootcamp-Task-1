@@ -100,28 +100,31 @@ while (count <= 10) {
     count++
 }
 
-//  Print all even numbers between 1 and 20.
+//  2.Print all even numbers between 1 and 20.
 
 let evenNumber = 1;
 
 while (evenNumber <= 20) {
     if (evenNumber % 2 == 0) {
-        console.log(evenNumber)
+        // console.log(evenNumber)
     }
     evenNumber++
 }
 
-
-// const guessNumber = 10
-// let userInput
-
-// do
-// {
-//     userInput = parseInt(prompt("Print guess a number between 1 to 10 "))
-
-//     if(userInput === guessNumber){
-//         console.log("The guess is true")
-//     }
-// }while(true)
+// 3.Calculate the sum of all numbers from 1 to 100 and print the result. 
 
 
+let sumOfNumbers = 0;
+let currentNumber = 1;
+
+while (currentNumber <= 100) {
+    sumOfNumbers += currentNumber
+    currentNumber++
+
+}
+// console.log(sumOfNumbers)
+
+// let limit = 1;
+// // 4. Print all multiples of 5 less than 50.
+
+// while (currentNumber < limit)
