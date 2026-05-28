@@ -163,15 +163,34 @@ const fixedNum = 11;
 
 do {
     if (userGuess < fixedNum) {
-        console.log("Your number " + userGuess + " is less than " + fixedNum);
-        break;
+        console.log("Your number" + userGuess + " is less than" + fixedNum)
+        break
     } else if (userGuess > fixedNum) {
-        console.log("Your number " + userGuess + " is greater than " + fixedNum);
+        console.log("Your number" + userGuess + " is greater than" + fixedNum)
         break
     } else {
-        console.log("You guessed the correct number: " + fixedNum);
-        break; // stops the loop
+        console.log("You suggested the correct number: " + fixedNum)
+        break
     }
+} while (userGuess !== fixedNum)
 
-    userGuess++; // update guess to avoid infinite loop for demo purposes
-} while (userGuess !== fixedNum);
+// Create a simple guessing game where the user must guess a number  between 1 and 10. The game continues until the user guesses the correct number. 
+
+
+let userInput = 4
+const numberToGuess = 9;
+
+do {
+    if (userInput < 1 || userInput > 10) {
+        console.log("Ivalid input enter number that is between 1 and 10 ")
+        break;
+
+    } else if (userInput > numberToGuess || userInput < numberToGuess) {
+        console.log("You entered: " + userInput + "\nTry another guess!!")
+        break
+    }
+    else {
+        console.log("Cogratulation you just guessed the correct number which is: " + numberToGuess)
+        break
+    }
+} while (userInput !== numberToGuess)
