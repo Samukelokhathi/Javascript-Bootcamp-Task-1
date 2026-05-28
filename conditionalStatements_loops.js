@@ -1,5 +1,4 @@
 //Conditional Statements & Loops
-
 // If statments
 
 let temperature = 0
@@ -53,13 +52,13 @@ switch (true) {
 
 // 1. Printing numbers from 1 - 10
 for (let num = 1; num <= 10; num++) {
-    // console.log(num)
+    console.log(num)
 }
 
 // 2. Even number from 1 - 20 
 for (let num = 1; num <= 20; num++) {
     if (num % 2 === 0) {
-        // console.log(num)
+        console.log(num)
     }
 }
 
@@ -68,14 +67,14 @@ let sum = 0;
 for (let num = 1; num <= 100; num++) {
     sum += num
 }
-// console.log('Sum:', sum)
+console.log('Sum:', sum)
 
 
 // 4. Loops with array
 
 const numbers = [1, 2, 3, 4, 5];
 for (let num = 0; num < numbers.length; num++) {
-    // console.log(numbers[num])
+    console.log(numbers[num])
 }
 
 // 5. Printing Large Numbers
@@ -87,7 +86,7 @@ for (let num = 0; num < numbersArr.length; num++) {
         largestNumber = numbersArr[num]
     }
 }
-// console.log(largestNumber)
+console.log(largestNumber)
 
 
 // While loop
@@ -96,7 +95,7 @@ for (let num = 0; num < numbersArr.length; num++) {
 count = 1
 
 while (count <= 10) {
-    // console.log(count)
+    console.log(count)
     count++
 }
 
@@ -106,7 +105,7 @@ let evenNumber = 1;
 
 while (evenNumber <= 20) {
     if (evenNumber % 2 == 0) {
-        // console.log(evenNumber)
+        console.log(evenNumber)
     }
     evenNumber++
 }
@@ -122,7 +121,7 @@ while (currentNumber <= 100) {
     currentNumber++
 
 }
-// console.log(sumOfNumbers)
+console.log(sumOfNumbers)
 
 
 // 4. Print all multiples of 5 less than 50.
@@ -130,7 +129,7 @@ let limit = 50;
 let divisibleBy5 = 1
 while (divisibleBy5 < limit) {
     if (divisibleBy5 % 5 === 0) {
-        // console.log(divisibleBy5)
+        console.log(divisibleBy5)
     }
     divisibleBy5++
 }
@@ -141,7 +140,7 @@ while (divisibleBy5 < limit) {
 
 let numbersTo10 = 1;
 do {
-    // console.log(numbersTo10)
+    console.log(numbersTo10)
     numbersTo10++
 } while (numbersTo10 <= 10)
 
@@ -154,7 +153,7 @@ do {
     eachNum++
 } while (eachNum <= 100)
 
-// console.log(totalNumber)
+console.log(totalNumber)
 
 // 3. Prompt the user to enter a number greater than 10. Keep asking until 
 
