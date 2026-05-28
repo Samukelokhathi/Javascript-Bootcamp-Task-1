@@ -130,7 +130,17 @@ let limit = 50;
 let divisibleBy5 = 1
 while (divisibleBy5 < limit) {
     if (divisibleBy5 % 5 === 0) {
-        console.log(divisibleBy5)
+        // console.log(divisibleBy5)
     }
     divisibleBy5++
 }
+
+
+// Do while Loop
+// 1.Print numbers from 1 to 10. 
+
+let numbersTo10 = 1;
+do {
+    console.log(numbersTo10)
+    numbersTo10++
+} while (numbersTo10 <= 10)
