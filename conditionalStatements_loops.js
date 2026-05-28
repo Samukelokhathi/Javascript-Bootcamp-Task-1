@@ -154,4 +154,24 @@ do {
     eachNum++
 } while (eachNum <= 100)
 
-console.log(totalNumber)
+// console.log(totalNumber)
+
+// 3. Prompt the user to enter a number greater than 10. Keep asking until 
+
+let userGuess = 11;
+const fixedNum = 11;
+
+do {
+    if (userGuess < fixedNum) {
+        console.log("Your number " + userGuess + " is less than " + fixedNum);
+        break;
+    } else if (userGuess > fixedNum) {
+        console.log("Your number " + userGuess + " is greater than " + fixedNum);
+        break
+    } else {
+        console.log("You guessed the correct number: " + fixedNum);
+        break; // stops the loop
+    }
+
+    userGuess++; // update guess to avoid infinite loop for demo purposes
+} while (userGuess !== fixedNum);
